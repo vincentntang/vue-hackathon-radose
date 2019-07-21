@@ -56,7 +56,8 @@
         axios
           .get(url)
           .then(response => {
-            let result = response.data.data;
+            // let result = response.data.data;
+            let result = response.data;
             this.series[0].data = result;
           })
           .catch(error => {
