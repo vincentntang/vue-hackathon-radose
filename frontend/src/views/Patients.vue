@@ -7,23 +7,15 @@
           <h5 class="card-title">{{profile.name}}</h5>
           <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
           <router-link :to="`/patients/${index + 1}`" exact class="btn btn-primary">Profile</router-link>
-          <!-- <router-link :to="{ name: 'patient-id', params: {profile: profile } }">more..</router-link> -->
-          <!-- <button @click="_handlePatientProfileLoad(index + 1)" class="btn btn-primary">Profile</button> -->
         </div>
       </div>
-    <!-- </template> -->
-    <!-- <template v-else>
-      <patient-profile :profiles="profiles" :selected-id="selectedId"/>
-    </template> -->
+
   </div>
 </template>
 
 <script>
   import pictureData from '../data.js';
   export default {
-    // components: {
-    //   PatientProfile,
-    // },
     data() {
       return {
         prescriptions: [
