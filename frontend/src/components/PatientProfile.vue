@@ -7,8 +7,7 @@
           <h5 class="card-title">{{profile.name}}</h5>
         </div>
         <div class="wrapper-buttons">
-          <router-link :to="`/patients/prescription/${id}`" exact class="btn btn-primary">Prescription</router-link>
-          <router-link :to="`/patients/history/${id}`" exact class="btn btn-primary">History</router-link>
+          <router-link :to="`/radiation`" exact class="btn btn-primary">Records</router-link>
         </div>        
       </div>
     </div>

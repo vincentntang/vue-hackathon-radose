@@ -31,4 +31,15 @@
       }
     }
   }
+  .btn-primary {
+    color: #fff;
+    background-color: teal;
+    border-color: teal;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: #008b8b;
+      border-color: #008b8b;
+    }
+  }
 </style>

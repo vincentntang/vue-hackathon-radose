@@ -6,7 +6,7 @@
 
         <!-- Icon -->
         <div class="fadeIn first">
-          <img class="logo-icon" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/867725/myPillbox.png" id="icon" alt="User Icon" />
+          <img class="logo-icon" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/867725/rxdose.png" id="icon" alt="User Icon" />
         </div>
 
         <!-- Login Form -->
@@ -32,7 +32,7 @@
   export default {
     data() {
       return {
-        username: 'doctor1@gmail.com',
+        username: 'rxdose@gmail.com',
         password: 'password',
         logins: [
           {
@@ -55,7 +55,7 @@
           // Do stuff if user clicks okay
           if (this.username == 'patient1@gmail.com') {
             this.$router.push('/patients/1');
-          } else if (this.username == 'doctor1@gmail.com') {
+          } else if (this.username == 'rxdose@gmail.com') {
             this.$router.push('/patients');
           } else if (this.username == 'radiation@gmail.com') {
             this.$router.push('/radiation');
