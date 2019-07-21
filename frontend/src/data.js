@@ -2,37 +2,39 @@ var data = {
   profiles: [
     {
       id: 1,
-      name: 'Vincent Tang',
-      image: 'https://storage.googleapis.com/marquettehealthhacks/vincent.jpg',
+      name: 'Muntaser Syed',
+      image:
+        'https://s3-us-west-2.amazonaws.com/s.cdpn.io/867725/muntaser-google.png',
     },
     {
       id: 2,
-      name: 'Prashant Bhanbar',
-      image: 'https://storage.googleapis.com/marquettehealthhacks/prashant.jpg',
+      name: 'Fabian Kim',
+      image:
+        'https://s3-us-west-2.amazonaws.com/s.cdpn.io/867725/fabbian_Kim.jpeg',
     },
     {
       id: 3,
-      name: 'Robert Smith',
+      name: 'Emily Chang',
       image:
-        'https://s3-us-west-2.amazonaws.com/s.cdpn.io/867725/dude3-min.jpeg',
+        'https://s3-us-west-2.amazonaws.com/s.cdpn.io/867725/emilyChang-min.jpeg',
     },
     {
       id: 4,
-      name: 'Jenna Smith',
+      name: 'Jamie Hones',
       image:
-        'https://s3-us-west-2.amazonaws.com/s.cdpn.io/867725/lady1-min.jpeg',
+        'https://s3-us-west-2.amazonaws.com/s.cdpn.io/867725/jamieHones-min.jpeg',
     },
     {
       id: 5,
-      name: 'Emily Wellington',
+      name: 'Chelsea Longwood',
       image:
-        'https://s3-us-west-2.amazonaws.com/s.cdpn.io/867725/lady2-min.jpeg',
+        'https://s3-us-west-2.amazonaws.com/s.cdpn.io/867725/chelseaLongwood-min.jpeg',
     },
     {
       id: 6,
-      name: 'Maria Toscany',
+      name: 'Steve Roberts',
       image:
-        'https://s3-us-west-2.amazonaws.com/s.cdpn.io/867725/lady3-min.jpeg',
+        'https://s3-us-west-2.amazonaws.com/s.cdpn.io/867725/steveRoberts-min.jpeg',
     },
   ],
 };
